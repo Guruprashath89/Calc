@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>guru.com</title>
+    
+    <link rel="stylesheet" href="yt.css">
+   
+</head>
+
+<body>
+    <h2 id="gu">Simple Calculator</h2>
+    <div class="div">
+        <div class="grid">
+            <div>Enter number 1<input id="num1" ></div>
+        <div>Enter number 2<input id="num2"></div>
+        <div>Answer<input id="ans"> </div>
+        </div>
+        
+        
+        
+        
+    
+        <button  onclick="sum()">Addition</button>
+        <button onclick="sub()">Subraction</button>
+        <button onclick="multi()">Multiplication</button>
+        <button onclick="division()">Division</button>
+        
+    
+
+    </div>
+  
+    <script>
+        function sum()
+        {
+            var num1=parseInt(document.getElementById("num1").value);
+            var num2=parseInt(document.getElementById("num2").value);
+
+            var ans=num1+num2;
+            document.getElementById("ans").value=ans;
+
+
+        }
+        function sub()
+        {
+            var num1=parseInt(document.getElementById("num1").value);
+            var num2=parseInt(document.getElementById("num2").value);
+
+            var ans=num1-num2;
+            document.getElementById("ans").value=ans;
+
+
+        }
+        function multi()
+        {
+            var num1=parseInt(document.getElementById("num1").value);
+            var num2=parseInt(document.getElementById("num2").value);
+
+            var ans=num1*num2;
+            document.getElementById("ans").value=ans;
+
+
+        }
+        function division()
+        {
+            var num1=parseInt(document.getElementById("num1").value);
+            var num2=parseInt(document.getElementById("num2").value);
+
+            var ans=num1/num2;
+            document.getElementById("ans").value=ans;
+
+
+        }
+        
+        
+
+    </script>
+    
+       
+
+    
+</body>
+
+</html>

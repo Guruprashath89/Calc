@@ -1,0 +1,48 @@
+button
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+button:hover{
+    opacity: 0.7;
+}
+#gu
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+    text-align: center;
+}
+.div
+{
+    background-color: grey;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    border-radius: 20px;
+    padding: 90px;
+}
+body{
+    background-image: url("ytimg/R (1).jpg")
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 100px;
+}
+#num1 {
+    border-radius: 10px;
+
+}
+#num2
+{
+    border-radius: 10px;
+}
+#ans{
+border-radius: 10px;
+}
